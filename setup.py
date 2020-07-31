@@ -73,11 +73,7 @@ setup(name='pbxproj_baxievski',
       version=find_version("pbxproj", "__init__.py"),
       license='MIT License',
       install_requires=[
-          'openstep_parser_baxievski',
           'docopt'
-      ],
-      dependency_links=[
-          'git+ssh://git@github.com/baxievski/openstep_parser.git@cl#egg=openstep_parser_baxievski-1.5.3',
       ],
       python_requires='>=3.6',
       packages=find_packages(exclude=['tests']),
