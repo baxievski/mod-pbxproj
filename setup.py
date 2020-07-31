@@ -77,7 +77,7 @@ setup(name='pbxproj_baxievski',
           'docopt'
       ],
       dependency_links=[
-          'git+ssh://git@github.com/baxievski/openstep_parser.git@master#egg=openstep_parser_baxievski',
+          'git+ssh://git@github.com/baxievski/openstep_parser.git@master#egg=openstep_parser_baxievski-0.1',
       ],
       python_requires='>=3.6',
       packages=find_packages(exclude=['tests']),
