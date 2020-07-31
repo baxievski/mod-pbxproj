@@ -69,7 +69,7 @@ setup(name='pbxproj_baxievski',
             'pbxproj-folder = pbxproj.pbxcli.pbxproj_folder:main'
         ]
       },
-      url="http://github.com/kronenthaler/mod-pbxproj",
+      url="http://github.com/baxievski/mod-pbxproj",
       version=find_version("pbxproj", "__init__.py"),
       license='MIT License',
       install_requires=[
@@ -77,7 +77,7 @@ setup(name='pbxproj_baxievski',
           'docopt'
       ],
       dependency_links=[
-          'git+ssh://git@github.com/baxievski/openstep_parser.git@master#egg=openstep_parser_baxievski-0.1',
+          'git+ssh://git@github.com/baxievski/openstep_parser.git@cl#egg=openstep_parser_baxievski-0.1',
       ],
       python_requires='>=3.6',
       packages=find_packages(exclude=['tests']),
