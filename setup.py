@@ -56,7 +56,7 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 
-setup(name='pbxproj',
+setup(name='pbxproj_baxievski',
       author='Ignacio Calderon',
       description='XCode Project manipulation library for Python',
       long_description=long_description,
